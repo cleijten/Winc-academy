@@ -1,0 +1,48 @@
+body {
+  color: darkslategray;
+  font-family: Verdana, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  background-color: #dedede;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h1 {
+  border: 5px dotted white;
+  padding: 5px;
+}
+
+h2 {
+  font-family: Tahoma, Helvetica, sans-serif;
+  color: #cc0000;
+  font-size: 1rem;
+}
+
+ul > li {
+  color: green;
+  list-style-type: square;
+}
+
+a {
+  font-size: 0.8em;
+  color: lightskyblue;
+}
+
+footer {
+  background-color: #919191;
+  color: white;
+  font-size: small;
+  padding: 20px 5px;
+  margin: 30px 0;
+}
+
+figure > img {
+  max-width: 200px;
+}
+figcaption {
+  font-style: italic;
+  font-size: smaller;
+}
