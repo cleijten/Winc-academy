@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- hier zet je de code in de head tags -->
+    <title>Neem Contact op </title>
+
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+
+<body>
+
+
+
+
+    <header>
+
+        <nav>
+            <ul class="nav1">
+
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">Over</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+
+
+            </ul>
+
+
+        </nav>
+
+
+    </header>
+
+    <main>
+        <h1>Stuur je recept in</h1>
+
+        <form name="contact" method="POST" data-netlify="true">
+            <p>
+                <label>Naam: </label><input type="text" name="name" />
+            </p>
+            <p>
+                <label>E-mail:</label><input type="email" name="email" />
+            </p>
+            <p>
+                <label>Telefoon:</label> <input type="tel" name="tel" />
+            </p>
+            <p>
+                <label>Leeftijd:</label> <input type="number" name="age" />
+            </p>
+
+            <p>
+                <label>Geboortedatum:</label> <input type="date" name="birthdate" value="01-01-1999" />
+            </p>
+            <p>
+                <label>Geslacht:</label> <br>
+                <input type="radio" name="gender" value="man" /><label>Man</label>
+                <input type="radio" name="gender" value="vrouw" /><label>Vrouw</label>
+                <input type="radio" name="gender" value="anders" /><label>Anders</label>
+            </p>
+
+            <p>
+                <label>Favoriete keuken:</label> <br>
+                <input type="checkbox" name="cuisine" value="frans" /> <label>Frans</label>
+                <input type="checkbox" name="cuisine" value="italiaans" /> <label>Italiaans</label>
+                <input type="checkbox" name="cuisine" value="spaans" /> <label>Spaans</label>
+                <input type="checkbox" name="cuisine" value="arabisch" /> <label>Arabisch</label>
+            </p>
+
+            <p>
+                <label>Favoriete kleur schort:</label> <input type="color" name="color" />
+            </p>
+            <p>
+                <label>Biografie:</label><br>
+
+
+
+                <textarea name="message" rows="10" cols="50"></textarea>
+            </p>
+            <p>
+                <label>Upload je laatste recept:</label> <input type="file" name="recepy" />
+            </p>
+            <p>
+                <label>Link naar je recepten website:</label> <input type="url" name="url" size="50" />
+            </p>
+
+
+
+            <p>
+                <button type="reset">Maak formulier leeg</button>
+            </p>
+
+
+            <p>
+                <button type="submit">Versturen</button>
+            </p>
+        </form>
+
+    </main>
+
+    <footer>
+        <p> <a href="index.html">Terug naar de homepage</a></p>
+    </footer>
+
+
+
+</body>
+
+</html>
