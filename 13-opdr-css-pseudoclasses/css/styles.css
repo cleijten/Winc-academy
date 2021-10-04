@@ -1,0 +1,72 @@
+* {
+  font-family: Tahoma, sans-serif;
+}
+
+nav {
+  background-color: darkblue;
+  color: #fff;
+}
+
+nav ul {
+  padding-inline-start: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-left: 20px;
+  padding: 10px;
+}
+
+nav ul li:hover {
+  background-color: lightblue;
+}
+
+nav ul li:first-child {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+nav ul li:last-child:hover {
+  background-color: darkblue;
+}
+
+.currentpage {
+  background-color: steelblue;
+}
+
+input[id="search"] {
+  border: lightgrey 3px solid;
+  border-radius: 8px;
+  outline: none;
+}
+
+input[id="search"]:focus {
+  border: aqua 3px solid;
+  outline: none;
+}
+
+a {
+  color: black;
+}
+
+.link1 a:hover {
+  color: lightblue;
+  font-weight: bold;
+}
+
+.link2 a:active {
+  color: red;
+  font-style: italic;
+}
+
+.link3 a:visited {
+  color: yellow;
+}
+
+input[id="input"]:focus {
+  color: green;
+  font-size: 20px;
+}
