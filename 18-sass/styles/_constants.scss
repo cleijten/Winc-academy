@@ -1,0 +1,11 @@
+$light-green: #ecffe9;
+$mid-green: #c0eea9;
+$dark-green: #97d279;
+$black-green: #090b08;
+$defaultpadding: 20px;
+
+@mixin textStyle() {
+  max-width: 700px;
+  text-align: center;
+  padding: $defaultpadding;
+}
