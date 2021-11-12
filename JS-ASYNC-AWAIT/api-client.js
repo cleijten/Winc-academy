@@ -1,4 +1,4 @@
-const API_KEY = 'bcd7211512731adb3ea370a9c891d2d4';
+const API_KEY = 'geheim';
 const apiUrl = `https://api.themoviedb.org/3/genre/movie/list?api_key=${API_KEY}`;
 console.log(apiUrl);
 
