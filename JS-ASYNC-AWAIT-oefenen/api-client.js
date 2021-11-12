@@ -1,4 +1,4 @@
-const API_KEY = "bcd7211512731adb3ea370a9c891d2d4";
+const API_KEY = "geheim";
 
 const apiUrl = `https://api.themoviedb.org/3/genre/movie/list?api_key=${API_KEY}`;
 const apiMovieUrl = `https://api.themoviedb.org/3/find/tt1727824?api_key=${API_KEY}&language=en-US&external_source=imdb_id`;
@@ -8,7 +8,7 @@ const urlMovies75 = `https://api.themoviedb.org/3/discover/movie?api_key=${API_K
 
 async function getGenres() {
   try {
-    const res = await fetch(apiUrl);
+    const res = await fetch(apiUrl, { method: "GET"});
     const movies = await res.json();
     return movies;
   } catch (err) {
